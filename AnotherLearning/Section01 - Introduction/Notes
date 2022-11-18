@@ -1,0 +1,15 @@
+._._._._._._._.
+|_ JAVASCRIPT_|
+.\___________/.
+
+= JavaScript is implemented of all different browser, so there's no official download
+  for the language. It's not like a python.
+= ECMAscript is a reference that define the specification for the scripting language.
+  = It describe how the language should work.
+= The browser follow the ECMAscript rules and implemented them as JavaScript.
+= This ECMAscript document we called:
+  [0] ES2018
+  [1] ES2017
+  [2] ES2016
+  [3] ES2015 (This is the beginning of ES6)
+  
