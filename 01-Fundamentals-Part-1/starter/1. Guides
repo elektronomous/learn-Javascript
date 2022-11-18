@@ -1,1 +1,8 @@
-1~ open the chrome developer tools and then go to javascript console.
+1# open the chrome developer tools and then go to javascript console.
+2# write alert("Hello Wolrd") on the console and enter.
+3# write a variable like this:
+   let js = 'amazing';
+4# create a conditional statement like this:
+   if (js == 'amazing') alert('JavaScript is FUN!');
+5# doing an operation of math
+   40 + 50 + 20
