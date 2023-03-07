@@ -1,0 +1,11 @@
+#cost {
+  background-color: deeppink;
+  padding: 0.5rem 0.75rem;
+  color: white;
+  width: auto;
+  height: 1rem;
+  float: right;
+  position: relative;
+  right: 70em;
+  top: -0.5rem;
+}
