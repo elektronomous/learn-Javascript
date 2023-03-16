@@ -1,0 +1,8 @@
+01  = Open the getting-started-01-first-app 
+02  = Open the index.html on the browser, and try to click the link element.
+    = You're visiting another page right? so how dynamic JavaScript is?
+03  = try to edit the index.html file by following:
+      = replace the href's value "<a href="info/dynamic.html">" and "<a href="info/weakly-typed.html">" to "#"
+      = add data-text attribute to the a's element with the value of dynamic.html and weekly-typed.html p's element.
+      = add class attribute to the a's element with the value "info-modal". 
+      = add the app.js file

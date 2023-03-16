@@ -1,0 +1,34 @@
+= Javascript is a dynamic, weakly typed programming language which is compiled at runtime.
+= It can executed as part of a webpage in a browser or directly on any machine ("host environment")
+= JavaScript was created to make webpages more dynamic (e.g change content on a page directly from inside the browser) (Guides1.txt)
+= Originally, it was called LiveScript but due to the popularity of Java, it was named to JavaScript.
+= How JavaScript is executed?
+  = This explain JavaScript when executed on browser environment:
+
+             +-----------------+
+             | javascript code |
+             +-----------------+
+                    ||
+            +-------------------+
+            | JavaScript Engine |
+            +-------------------+
+                    ||
+            +-------------------+
+            | effect on webpage |
+            +-------------------+ 
+
+  = to make the effect on the webpage, the JavaScript need to be executed first.
+  = to execute the JavaScript, the browser has built-in engine (V8 for chrome, spidermonkey for firefox)
+  = this engine parse, read and understand the JavaScript code then on the fly compile it to machine code
+  = this machine code will executed by the computer and make the browser has the effect on the page.
+  = JavaScript engine has to do a lot of optimization, because JavaScript is single thread which means the cpu.
+
+= JavaScript is Dyanmic interpreted programming language and Weakly typed programming language
+  = dynamic means the code not pre-compiled, instead parsed and compiled "on the fly"
+    = code evaluated and executed at runtime
+    = code can change at runtime (e.g type of variable)
+  = weakly typed means when we work with data in JavaScript, you dont need to tell the JavaScript on what data
+    you're working on (e.g number, string of text, another object, so on).
+    = the data types automatically inferred
+    = you don't define that data or variable to hold a certain value
+    = 
