@@ -31,4 +31,7 @@
     you're working on (e.g number, string of text, another object, so on).
     = the data types automatically inferred
     = you don't define that data or variable to hold a certain value
-    = 
+= JavaScript can run on any machine ("host environment")
+    = The engine (v8 for chrome) is extracted to run JavaScript out of the browser environment.
+    = Node.JS can be executed on any machine and is therefore often used to build web backends (server-side JavaScript).
+    = Node.JS can access the local filesystem, interact with the operating system etc. It can't manipulate HTML or CSS.
