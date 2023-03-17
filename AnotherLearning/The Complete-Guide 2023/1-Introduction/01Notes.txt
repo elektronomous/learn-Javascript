@@ -35,3 +35,38 @@
     = The engine (v8 for chrome) is extracted to run JavaScript out of the browser environment.
     = Node.JS can be executed on any machine and is therefore often used to build web backends (server-side JavaScript).
     = Node.JS can access the local filesystem, interact with the operating system etc. It can't manipulate HTML or CSS.
+
+= JavaScript History:
+
+  +------+     +-----------------------------------+
+  | 1995 |  => | Netscape introduces "LiveScript"  |
+  +------+     +-----------------------------------+
+               | Thereafter rename to "JavaScript" |
+               +-----------------------------------+
+
+  +------+     +--------------------------------------------+
+  | 1996 |  => | Microsoft releases its own version for IE  |
+  +------+     +----------------------------------------------+
+               | same idea, same syntax but also differences  |
+               +-----------------------------------------------------------------------+
+               | You write JavaScript code very different script for different browser |
+               +-----------------------------------------------------------------------+
+  
+  +-----------+     +---------------------------------------------------------------------+
+  | Late 1996 |  => | JavaScript submitted to ECMA International to start standardization |
+  +-----------+     +---------------------------------------------------------------------+
+                    | European Computer Manufactures Association |
+                    +--------------------------------------------+
+
+  +-------------+     +-----------------------------------------------------------------------+
+  | 1997 - 2005 |  => | Standardization efforts, Microsoft didn't really join and support the |
+  +-------------+     | standadized JS version                                                |
+                      +-----------------------------------------------------------------------+
+
+  +-------------+     +-----------------------------------------------------------------------+
+  | 2006 - 2011 |  => | Huge progress in JavaScript ecosystem, Microsoft eventually joined    |
+  +-------------+     | forces.                                                               |
+                      +-----------------------------------------------------------------------+
+  
+  = The ECMA has eventually a standard which will be implemented by the JavaScript.
+
