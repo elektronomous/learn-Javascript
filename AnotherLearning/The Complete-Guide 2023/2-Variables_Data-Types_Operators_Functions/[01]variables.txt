@@ -1,0 +1,40 @@
+[VARIABLES AND CONSTANTS]
+= variables are data container or data storage which holds some data.
+= You can change the value of the variables.
+= you declare a variable in JavaScript like this:
+
+        let userName = "Faza";
+= or
+        let firstName = "faza",
+            lastName = "akbar";
+
+  = "let" is the JavaScript keyword which tell the javascript we're declaring a variable
+  = userName is the variable name, which you can refer back to it in later execution code.
+  = "Faza" is the data that it's hold.
+= You can reassign the variable to another value, without using let.
+
+        userName = "Akbar";
+
+= You can create variable where you can't change its state(its value, its data).
+= This variables called constant variables.
+
+        const userName = "Faza";
+        userName = "Akbar";         // ERROR!!!
+
+[VARIABLES NAMING]
+
+= you can't start the variable name using number
+= you can't naming your variable using the JavaScript keyword (let, const, for, in, if, and so on).
+= you can only seperate variable name using _.
+= the convention way when you have more than one word variable name is using
+  the camel case:
+
+        let userName = "Akbar";
+        let isThereApple = true;
+        let getValue = 20;
+
+= you can start variable name using $ symbol.
+= you can start variable name using _ symbol.
+= you need to use the double colon(;) to end your statement.
+  
+        let userName = "akbar";     // you state that you have variable named userName which value is "akbar"

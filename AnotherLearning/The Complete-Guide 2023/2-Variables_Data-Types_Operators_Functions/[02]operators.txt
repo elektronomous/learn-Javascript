@@ -1,0 +1,30 @@
+[OPERATORS]
+= Operators are syntax which allows us to manipulate value.
+= Operators are generally operation that you use on the math lesson:
+
+   Addition
+    +---+
+    | + |  => Add two numbers
+    +---+
+   
+ Substraction
+    +---+
+    | - |  => Substract two numbers
+    +---+
+
+Multiplication
+    +---+
+    | * |  => Multiply two numbers
+    +---+
+
+  Division
+    +---+
+    | / |  => Divide two numbers
+    +---+    
+
+  Modulation
+    +---+
+    | % |  => Divide two numbers, yield reminder
+    +---+
+
+= 

@@ -1,0 +1,3 @@
+01  = create app.js
+02  = Import the app.js to index.html
+03  = Import the vendor.js before 02 to index.html
