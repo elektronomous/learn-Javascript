@@ -1,3 +1,7 @@
 01  = create app.js
-02  = Import the app.js to index.html
-03  = Import the vendor.js before 02 to index.html
+02  = Import the vendor.js to index.html
+03  = Import the app.js to index.html
+04  = Now open the index.html to the browser.
+05  = comment the calculationEquation out, then use the concatenation version.
+    = put it after 02
+06  = comment out 05 then change using the backtick

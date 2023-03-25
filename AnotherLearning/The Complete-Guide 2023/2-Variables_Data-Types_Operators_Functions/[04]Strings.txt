@@ -1,0 +1,49 @@
+= you must always close a string using the character you've using to open it.
+    "hello there"
+    'Don\'t stop, just do it'
+    `Neigbour: Where've you been?\nMe: from childhood.`
+
+= To print a character which you've using to open a string, you need to prefix it with backslash
+= also to print a backslash, you need to prefix it with the backslash too.
+
+    'We call him \'eager\' \\ \'yeager\'.'
+
+= To print compound character(\n means new line), you need to prefix it with backslash to
+= If you want to print a character which is used to open a string, you can use another open string
+  character, then insert the character.
+
+    "Don't stop, just do it"
+    'There "differences" between I and i'
+    `He say, 'we're going to heaven someday'.`
+
+= Without compound character, you can create a multiline string using the backtick(`)
+    
+    `Hello, Iam from Indonesia. I was able to hack all the system you're working on.
+     Now I just declare myself as the palestinian hacker. If you don't aggree with
+     Jews and their country. come with me`
+    
+  = We don't need to use \n character.
+  = when you use the backtick, the html code will follow the order of the string.
+    = but when render to browser, the order is ignored.
+  = to make it follow the order, you need to style it on css by change the white-space
+    properties to pre.
+
+        yourBackthickElement {
+            white-space: pre;
+        }
+    
+= when you using plus operator (+) in string, JavaScript doesn't calculate instead
+  combine the string which is called concatenation
+    
+        let fname = 'faza';
+        let lname = 'akbar';
+        let fullName = fname + lname;
+
+= There is a template literal, where you can insert any expression that yield a value
+  to a string by opening the string using backtick('`')
+
+        let firstName = 'faza';
+        let secondName = 'akbar';
+        let fullName = `${firstName} ${secondName}`;
+
+= This is usefull that could be alternative for concatenation

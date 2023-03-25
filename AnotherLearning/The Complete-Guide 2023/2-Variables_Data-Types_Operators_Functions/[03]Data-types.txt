@@ -1,0 +1,8 @@
+= JavaScript provide you with with many data type, but in this section
+  we explain the two of them first that is.
+
+  [NUMBER] => 2, -3, 22.956 
+           => important for calculations and where you need to work with numbers.
+  
+  [STRING (or text)] => "hello", 'john', `username`
+           
